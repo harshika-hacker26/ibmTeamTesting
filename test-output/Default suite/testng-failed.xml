@@ -3,18 +3,48 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testcases.TC07_VerifyTestCasesPageTest">
+      <class name="com.automationexercise.tests.TestCase24">
         <methods>
-          <include name="verifyTestCasesPage"/>
+          <include name="setup"/>
+          <include name="downloadInvoiceAfterPurchaseOrder"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- testcases.TC07_VerifyTestCasesPageTest -->
-      <class name="testcases.TC06_ContactUsFormTest">
+      </class> <!-- com.automationexercise.tests.TestCase24 -->
+      <class name="com.automationexercise.tests.TestCase2">
         <methods>
-          <include name="closeBrowser"/>
-          <include name="contactUsFormSubmission"/>
-          <include name="launchBrowser"/>
+          <include name="setup"/>
+          <include name="loginUserWithCorrectEmailAndPassword"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- testcases.TC06_ContactUsFormTest -->
+      </class> <!-- com.automationexercise.tests.TestCase2 -->
+      <class name="com.automationexercise.tests.TestCase22">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="AddToCartFromRecommendedItems"/>
+        </methods>
+      </class> <!-- com.automationexercise.tests.TestCase22 -->
+      <class name="com.automationexercise.tests.TestCase25">
+        <methods>
+          <include name="verifyScrollUpUsingArrowButtonAndScrollDownFunctionality"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automationexercise.tests.TestCase25 -->
+      <class name="com.automationexercise.tests.TestCase4">
+        <methods>
+          <include name="setup"/>
+          <include name="logoutUser"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automationexercise.tests.TestCase4 -->
+      <class name="com.automationexercise.tests.TestCase16">
+        <methods>
+          <include name="setup"/>
+          <include name="placeOrderLoginBeforeCheckout"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automationexercise.tests.TestCase16 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
